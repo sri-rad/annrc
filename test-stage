@@ -1,8 +1,7 @@
-openapi: 3.0.1
+openapi: 3.0.0
 info:
-
   version: '1.0.0'
-  title: 'test-stage-123'
+  title: 'test-stag-123'
 servers:
   - url: 'localhost:3000'
 paths:
@@ -13,9 +12,6 @@ paths:
       tags:
         - user
       parameters:
-      
-      
-      
         - name: id
           in: query
           description: ID of the user
