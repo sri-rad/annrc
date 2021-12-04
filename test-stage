@@ -12,6 +12,9 @@ paths:
       tags:
         - user
       parameters:
+      
+      
+      
         - name: id
           in: query
           description: ID of the user
